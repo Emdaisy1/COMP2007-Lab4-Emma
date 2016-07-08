@@ -8,9 +8,13 @@ namespace COMP2007_Lab4_Emma.Controllers
 {
     public class HomeController : Controller
     {
+
+        //public string SubTitle;
+
         // GET: /Home/Index  or /
         public ActionResult Index()
         {
+            //this.SubTitle = "SubTitle";
             return View();
         }
 
